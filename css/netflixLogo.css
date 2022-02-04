@@ -1,0 +1,36 @@
+body{
+    background: black;
+}
+div.netflix {
+    background: #b1060f;
+    height: 250px;
+    width: 60px;
+    position: relative;
+}
+div.netflix::before {
+    background: #b1060f;
+    height: 250px;
+    width: 60px;
+    position: absolute;
+    content: '';
+    left:90px;
+}
+div.netflix::after {
+    background: black;
+    height: 20px;
+    width: 175px;
+    position: absolute;
+    content: '';
+    left:-15px;
+    bottom: -10px;
+    border-radius: 50%;
+}
+span.netflix {
+    background: #e50913;
+    height: 250px;
+    width: 60px;
+    position: absolute;
+    left:46px;
+    transform: skew(20deg);
+    box-shadow: 0 0 10px -4px #222;
+}
